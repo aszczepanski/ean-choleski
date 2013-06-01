@@ -1,0 +1,11 @@
+TYTU£
+1. Zastosowanie (1 zdanie)
+2. Opis metody (ogólnie, wzory,...)
+3. Wywo³anie fun(a,b,x,st)
+4. Dane (a-tablica zawieraj¹ca..., b-...)
+5. Wynik (x-tablica zawieraj¹ca...)
+6. Inne parametry (st-status wykonania: 0-..., 1-...)
+7. Typy parametrów (Integer: st)
+8. Identyfikatory nielokalne (wektor-typ zdefiniowany nast..., a-zmienna nielokalna...)
+9. Treœæ funkcji/procedury
+10. Przyk³ad (dla danych ... otrzymano nastêpuj¹ce wyniki..., dla innych wyrzuca b³¹d)
