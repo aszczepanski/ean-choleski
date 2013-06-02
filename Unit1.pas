@@ -206,21 +206,6 @@ begin
     end;
     StringGrid1.Cells[n+1,0]:='b';
     StringGrid1.ColWidths[n+1]:=64;
-    {
-    // hard codowane wartosci poczatkowe
-    StringGrid1.Cells[1,1]:='3';
-    StringGrid1.Cells[1,2]:='1';
-    StringGrid1.Cells[1,3]:='0';
-    StringGrid1.Cells[2,1]:='1';
-    StringGrid1.Cells[2,2]:='2';
-    StringGrid1.Cells[2,3]:='-1';
-    StringGrid1.Cells[3,1]:='0';
-    StringGrid1.Cells[3,2]:='-1';
-    StringGrid1.Cells[3,3]:='3';
-    StringGrid1.Cells[4,1]:='0';
-    StringGrid1.Cells[4,2]:='1';
-    StringGrid1.Cells[4,3]:='0';
-    }
   end
   else if mode=2 then begin
     finalize(MA_ia);
@@ -238,21 +223,6 @@ begin
     end;
     StringGrid1.Cells[n+1,0]:='[b,b]';
     StringGrid1.ColWidths[n+1]:=64;
-    {
-    // hard codowane wartosci poczatkowe
-    StringGrid1.Cells[1,1]:='3';
-    StringGrid1.Cells[1,2]:='1';
-    StringGrid1.Cells[1,3]:='0';
-    StringGrid1.Cells[2,1]:='1';
-    StringGrid1.Cells[2,2]:='2';
-    StringGrid1.Cells[2,3]:='-1';
-    StringGrid1.Cells[3,1]:='0';
-    StringGrid1.Cells[3,2]:='-1';
-    StringGrid1.Cells[3,3]:='3';
-    StringGrid1.Cells[4,1]:='0';
-    StringGrid1.Cells[4,2]:='1';
-    StringGrid1.Cells[4,3]:='0';
-    }
   end
   else begin
     finalize(MA_ia);
@@ -274,34 +244,6 @@ begin
     StringGrid1.Cells[2*n+2,0]:='b]';
     StringGrid1.ColWidths[2*n+1]:=31;
     StringGrid1.ColWidths[2*n+2]:=31;
-    {
-    StringGrid1.ColWidths[2*n+1]:=31;
-    StringGrid1.ColWidths[2*n+2]:=31;
-    StringGrid1.Cells[1,1]:='3';
-    StringGrid1.Cells[2,1]:='3';
-    StringGrid1.Cells[3,1]:='1';
-    StringGrid1.Cells[4,1]:='1';
-    StringGrid1.Cells[5,1]:='0';
-    StringGrid1.Cells[6,1]:='0';
-    StringGrid1.Cells[1,2]:='1';
-    StringGrid1.Cells[2,2]:='1';
-    StringGrid1.Cells[3,2]:='2';
-    StringGrid1.Cells[4,2]:='2';
-    StringGrid1.Cells[5,2]:='-1';
-    StringGrid1.Cells[6,2]:='-1';
-    StringGrid1.Cells[1,3]:='0';
-    StringGrid1.Cells[2,3]:='0';
-    StringGrid1.Cells[3,3]:='-1';
-    StringGrid1.Cells[4,3]:='-1';
-    StringGrid1.Cells[5,3]:='3';
-    StringGrid1.Cells[6,3]:='3';
-    StringGrid1.Cells[7,1]:='0';
-    StringGrid1.Cells[8,1]:='0';
-    StringGrid1.Cells[7,2]:='1';
-    StringGrid1.Cells[8,2]:='1';
-    StringGrid1.Cells[7,3]:='0';
-    StringGrid1.Cells[8,3]:='0';
-    }
   end;
 end;
 
